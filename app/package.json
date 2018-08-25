@@ -1,0 +1,21 @@
+{
+  "name": "pathfinder-buoy",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "google-cloud": "^0.57.0",
+    "mysql": "^2.15.0",
+    "react": "^16.2.0",
+    "react-csv": "^1.0.14",
+    "react-dom": "^16.2.0",
+    "react-google-maps": "^9.4.5",
+    "react-scripts": "1.1.1"
+  },
+  "scripts": {
+    "start": "npm install && npm run build && node src/backend/server.js",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "proxy": "http://localhost:8080"
+}
